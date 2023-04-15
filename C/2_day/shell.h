@@ -7,4 +7,5 @@
 #include <unistd.h>
 
 char **splitstring(char *str, const char *delim, int *count);
+char **split_string(const char *str, int *count);
 #endif
