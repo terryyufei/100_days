@@ -6,6 +6,8 @@
 #include <string.h>
 #include <unistd.h>
 #include <sys/wait.h>
+#include <sys/types.h>
+#include <sys/stat.h>
 
 char **splitstring(char *str, const char *delim, int *count);
 char **split_string(const char *str, int *count);
