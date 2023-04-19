@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../Downloads/git buddies"
+		},
+		{
+			"name": "100_days",
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.fontSize": 20,
+		"editor.inlayHints.fontSize": 10,
+		"scm.inputFontSize": 22
+	}
+}
