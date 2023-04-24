@@ -1,5 +1,6 @@
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
+bill = 0
 
 if height >= 120:
     print("Yay! you are tall enough to ride.")
@@ -18,12 +19,6 @@ if height >= 120:
     photo = input("Do you want your photo taken? Y or N ")
     if photo == "Y":
         bill += 3
-        print(f"Your final bill is ${bill}")
-
-
-
-
-
-
+    print(f"Your final bill is ${bill}")
 else:
     print("Sorry, you are too short for this.")
