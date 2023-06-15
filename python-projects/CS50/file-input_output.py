@@ -69,3 +69,9 @@ with open("names_append.txt") as file:
 
 for name in sorted(names):
     print(f"hello, {name}")
+
+"""
+if you want to print data in reverse alpahbetical order, you can change the third argument in 
+the sorted function eg:
+        for name in sorted(names, reverse=True):
+"""
