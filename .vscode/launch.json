@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/terry/100_days/python-projects",
-      "program": "/home/terry/100_days/python-projects/build/Debug/outDebug",
+      "cwd": "/home/terry/100_days/C/cs50-c",
+      "program": "/home/terry/100_days/C/cs50-c/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
