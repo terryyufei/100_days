@@ -24,12 +24,13 @@ int main(void)
     printf("Average: %f\n", (scores[0] + scores[1] + scores[2]) / (float) 3);
 }
 */
+
 float average( int array[]);
 const int N = 3;
 
 int main(void)
 {
-    int scores[3];
+    int scores[N];
     int i;
     
     for (i = 0; i < 3; i++)
