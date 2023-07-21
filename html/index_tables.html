@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Terry Sophia" />
+    <meta
+      name="description"
+      content="This page contains all the things I am learning to create as I learn HTML"
+    />
+    <title>Sophia's First Web Page</title>
+    <link rel="icon" href="html5.png" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Hello World!</h1>
+
+      <nav aria-label="primary navigation">
+        <ul>
+          <li>
+            <a href="#html"> Learning HTML</a>
+          </li>
+          <li>
+            <a href="#vacation">Planning a vacation</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+    <main>
+      <article id="html">
+        <h2>Day 89 of my #100DaysOfCode</h2>
+        <p>Introduction to HTML</p>
+        <section>
+          <h3>HTML5</h3>
+          <img
+            src="img/html_logo_300x300.png"
+            alt="HTML5 Logo"
+            title="I am learning html5"
+            width="300"
+            height="300"
+          />
+          <figure>
+            <figcaption>An example of html5 code</figcaption>
+            <p>
+              <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            </p>
+          </figure>
+        </section>
+        <section>
+          <h3>
+            <abbr title="Africa Leadership Academy">
+              <a href="https://www.alxafrica.com/"> ALX</a>
+            </abbr>
+            To The World!
+          </h3>
+          <p>This is Sophia's first web Page</p>
+          <ol>
+            <li>halfway through resources</li>
+            <li>
+              using resources from
+              <abbr title="Mozilla Developer Network">
+                <a href="https://developer.mozilla.org/">MDN</a>
+              </abbr>
+            </li>
+            <li>highly recommend it</li>
+          </ol>
+          <aside>
+            <details>
+              <summary>
+                Guess the <mark>numberof hours</mark>  I code per day
+              </summary>
+              <p>
+                I start <time datetime="08:00">8am</time> and code for
+                <time datetime="PT3H">3 hours</time>
+              </p>
+            </details>
+          </aside>
+          <br />
+          <table>
+            <caption>
+              Daily schedule
+            </caption>
+            <thead>
+              <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Morning</th>
+                <td>
+                  <time datetime="08:00">8am</time>-<time datetime="11:00"
+                    >11am</time
+                  >
+                </td>
+                <td>Write code</td>
+              </tr>
+              <tr>
+                <th scope="row">Noon</th>
+                <td>
+                  <time datetime="11:00">11am</time>-<time datetime="12:00"
+                    >12pm</time
+                  >
+                </td>
+                <td>Eat lunch</td>
+              </tr>
+              <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                  <time datetime="12:00">12pm</time>-<time datetime="17:00"
+                    >5pm</time
+                  >
+                </td>
+                <td>Study for other courses</td>
+              </tr>
+              <tr>
+                <th scope="row">Evening</th>
+                <td rowspan="2">All other times</td>
+                <td>Netflix</td>
+              </tr>
+              <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="3">
+                  A day in the life of Sophia, During her journey as a software
+                  enginerring student
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </section>
+      </article>
+
+      <hr />
+
+      <article id="vacation">
+        <h2>I am also planning a vacay</h2>
+        <p>I <em>really need a break</em> after this</p>
+        <p>Maybe somewhere with a beach?</p>
+
+        <section>
+          <h3>Places I'd like to Visit</h3>
+          <ul>
+            <li>
+              <p>I have heard good things about Hawaii</p>
+              <figure>
+                <img
+                  src="img/caribbean.jpg"
+                  alt="beach photo"
+                  title="a photo of a beach in Hawaii"
+                  width="400"
+                  height="225"
+                  loading="lazy"
+                />
+                <figcaption>Hawaii beach getaway</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p>I have heard good things about here:</p>
+              <address>
+                (303) 840-3459<br />
+                95-146 Kuahelani Ave #263 Mililani,<br />
+                Hawaii(HI), 96789
+              </address>
+              <figure>
+                <img
+                  src="img/vacation.jpg"
+                  alt="Mililani"
+                  title="clear skies, blue waters"
+                  width="400"
+                  height="267"
+                  loading="lazy"
+                />
+                <figcaption>A Hawaii walkboard</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+
+        <!-- TODO: Add more places-->
+        <section>
+          <h3>Places I'd like to Avoid</h3>
+          <dl>
+            <dt>North pole</dt>
+            <dd>I here this is <strong>cold</strong>!</dd>
+
+            <dt>South pole</dt>
+            <dd>This is also cold</dd>
+
+            <dt>Mountain Tops</dt>
+            <dd>These are also cold</dd>
+          </dl>
+        </section>
+      </article>
+    </main>
+
+    <hr />
+    <footer>
+      <p>
+        &lt;&lt;&lt; &copy;
+        <a href="about.html" target="_blank">Terry Sophia</a> &gt;&gt;&gt;
+      </p>
+      <p>
+        <a href="#">Back to Top</a>
+      </p>
+    </footer>
+  </body>
+</html>
