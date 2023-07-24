@@ -7,7 +7,7 @@ int main(void)
 
     int *p = &n;
     printf("%p\n", p); /* prints value of p, which the address of n*/
-    
+
     printf("%i\n", *p); /*prints the value that p is pointing at*/
 }
 

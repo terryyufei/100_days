@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/terry/100_days/C/cs50-c",
-      "program": "/home/terry/100_days/C/cs50-c/build/Debug/outDebug",
+      "cwd": "/home/terry/100_days/html/cs50_html",
+      "program": "/home/terry/100_days/html/cs50_html/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

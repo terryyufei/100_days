@@ -12,10 +12,10 @@ int main(void)
     if (strcmp(s, t) == 0)
     {
         printf("Same\n");
-    } 
+    }
     else
     {
         printf("Different\n");
     }
-    
+
 }

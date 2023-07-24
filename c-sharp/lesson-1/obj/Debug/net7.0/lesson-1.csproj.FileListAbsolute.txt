@@ -1,0 +1,15 @@
+/home/terry/100_days/c-sharp/lesson-1/bin/Debug/net7.0/lesson-1
+/home/terry/100_days/c-sharp/lesson-1/bin/Debug/net7.0/lesson-1.deps.json
+/home/terry/100_days/c-sharp/lesson-1/bin/Debug/net7.0/lesson-1.runtimeconfig.json
+/home/terry/100_days/c-sharp/lesson-1/bin/Debug/net7.0/lesson-1.dll
+/home/terry/100_days/c-sharp/lesson-1/bin/Debug/net7.0/lesson-1.pdb
+/home/terry/100_days/c-sharp/lesson-1/obj/Debug/net7.0/lesson-1.csproj.AssemblyReference.cache
+/home/terry/100_days/c-sharp/lesson-1/obj/Debug/net7.0/lesson-1.GeneratedMSBuildEditorConfig.editorconfig
+/home/terry/100_days/c-sharp/lesson-1/obj/Debug/net7.0/lesson-1.AssemblyInfoInputs.cache
+/home/terry/100_days/c-sharp/lesson-1/obj/Debug/net7.0/lesson-1.AssemblyInfo.cs
+/home/terry/100_days/c-sharp/lesson-1/obj/Debug/net7.0/lesson-1.csproj.CoreCompileInputs.cache
+/home/terry/100_days/c-sharp/lesson-1/obj/Debug/net7.0/lesson-1.dll
+/home/terry/100_days/c-sharp/lesson-1/obj/Debug/net7.0/refint/lesson-1.dll
+/home/terry/100_days/c-sharp/lesson-1/obj/Debug/net7.0/lesson-1.pdb
+/home/terry/100_days/c-sharp/lesson-1/obj/Debug/net7.0/lesson-1.genruntimeconfig.cache
+/home/terry/100_days/c-sharp/lesson-1/obj/Debug/net7.0/ref/lesson-1.dll

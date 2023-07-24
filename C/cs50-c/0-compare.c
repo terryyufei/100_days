@@ -11,10 +11,10 @@ int main(void)
     if (i == j)
     {
         printf("Same\n");
-    } 
+    }
     else
     {
         printf("Different\n");
     }
-    
+
 }

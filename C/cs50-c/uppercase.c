@@ -40,9 +40,9 @@ int main(void)
         {
             printf("%c", toupper(s[i]));
         }
-       
+
     }
     printf("\n");
-} 
+}
 
 /*ctype.h has islower() and toupper()*/

@@ -15,7 +15,7 @@ int main(void)
 {
     int scores[3];
     int i;
-    
+
     for (i = 0; i < 3; i++)
     {
         scores[i] = get_int("Scores: ");
@@ -32,7 +32,7 @@ int main(void)
 {
     int scores[N];
     int i;
-    
+
     for (i = 0; i < 3; i++)
     {
         scores[i] = get_int("Scores: ");
