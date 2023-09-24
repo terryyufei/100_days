@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">  
+  </head>
+  <body>
+    <h1 id="title" class="text-center">freeCodeCamp Survey Form</h1>
+    <p id="descripton" class="description text-center">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form" method="post" action="mailto: sophiaterryyu@gmail.com" enctype="text/plain" >
+    <fieldset>
+      <label for="name-label">Name <input id="name-label" type="text" required placeholder="Enter your name" name="name-label"></label>
+      <label for="email-label">Email<input id="email-label" type="email" required placeholder="Enter your email" name="email-label"></label>
+      <label for="age-label">Age <input id="age-label" type="number-label"  placeholder="Age" name="age-label" min="10" max="120"></label>
+    </fieldset>
+    <fieldset>
+      <label for="current-role">Which option best describes your current role? <select id="current-role" name="current-role">
+        <option value="">Select current role</option>
+        <option value="1">Student</option>
+        <option value="2">Full Time Job</option>
+        <option value="3">Full Time Learner</option>
+        <option value="4">Prefer not to say</option>
+        <option value="5">Other</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <label for="recommend">Would you recommend freeCodeCamp to a friend?</label> 
+        <label for="Definitely"> <input id="Definitely" type="radio" name="recommend" class="inline">Definitely</label>
+        <label for="Maybe"> <input id="Maybe" type="radio" name="recommend" class="inline">Maybe</label>
+        <label for="Not sure"> <input id="Not sure" type="radio" name="recommend" class="inline">Not sure</label>
+    </fieldset>
+    <fieldset>
+      <label for="feature">What is your favorite feature of freeCodeCamp? <select id="feature" name="feature">
+        <option value="">Select an option</option>
+        <option value="1">Challenges</option>
+        <option value="2">Projects</option>
+        <option value="3">Community</option>
+        <option value="4">Open Source</option>        
+      </select>
+    </fieldset>
+    <fieldset>
+      <label for="improve">What would you like to see improved? (Check all that apply)</label>
+      <label for="frontend" ><input id="frontend" type="checkbox" name="fronted" class="inline"> Front-end Projects</label>
+      <label for="backend" ><input id="backend" type="checkbox" name="backend" class="inline"> Back-end Projects</label>
+      <label for="data" ><input id="data" type="checkbox" name="data" class="inline"> Data Visualization</label>
+      <label for="challenges" ><input id="" type="checkbox" name="challenges" class="inline"> Challenges</label>
+
+      <label for="open-source" ><input id="open-source" type="checkbox" name="open source" class="inline"> Open Source Community</label>
+
+      <label for="gitter" ><input id="gitter" type="checkbox" name="gitter" class="inline"> Gitter help rooms</label>
+
+      <label for="videos" ><input id="videos" type="checkbox" name="videos" class="inline"> Videos</label>
+
+      <label for="meetups" ><input id="meetups" type="checkbox" name="meetups" class="inline"> City Meetups</label>
+
+      <label for="wiki" ><input id="wiki" type="checkbox" name="wiki" class="inline"> Wiki</label>
+
+      <label for="forum" ><input id="forum" type="checkbox" name="forum" class="inline"> Forum</label>
+      
+      <label for="courses" ><input id="courses" type="checkbox" name="courses" class="inline"> Additional Courses</label>
+
+     
+     </label>    
+
+    </fieldset>
+    <div class="comments">
+        <label for="comments">Any comments or suggestions? <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+     </div>
+    <input type="submit" value="Submit" />
+   
+    </form>
+  </body>
+</html>
