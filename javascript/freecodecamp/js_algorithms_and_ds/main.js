@@ -348,3 +348,37 @@ function multiplyAll(arr) {
 }
 
 multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+
+// counting cards
+let count = 0;
+
+function cc(card) {
+  // Assign values based on the card and update the count
+  switch (card) {
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+    case 6:
+      count++;
+      break;
+    case 7:
+    case 8:
+    case 9:
+      // Do nothing for cards 7, 8, and 9
+      break;
+    case 10:
+    case 'J':
+    case 'Q':
+    case 'K':
+    case 'A':
+      count--;
+      break;
+  }
+
+  // Return the current count and the player's decision
+  return count > 0 ? count + " Bet" : count + " Hold";
+}
+
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');
