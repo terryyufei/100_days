@@ -266,3 +266,85 @@ const myStorage = {
 };
 
 const gloveBoxContents = myStorage.car.inside["glove box"];
+
+
+// Record Collection
+// Setup
+const recordCollection = {
+  2548: {
+    albumTitle: 'Slippery When Wet',
+    artist: 'Bon Jovi',
+    tracks: ['Let It Rock', 'You Give Love a Bad Name']
+  },
+  2468: {
+    albumTitle: '1999',
+    artist: 'Prince',
+    tracks: ['1999', 'Little Red Corvette']
+  },
+  1245: {
+    artist: 'Robert Palmer',
+    tracks: []
+  },
+  5439: {
+    albumTitle: 'ABBA Gold'
+  }
+};
+
+// Only change code below this line
+function updateRecords(records, id, prop, value) {
+   const updatedRecords = { ...records };
+
+  // If value is an empty string, delete the given prop property from the album
+  if (value === "") {
+    delete updatedRecords[id][prop];
+  } else if (prop !== "tracks") {
+    // If prop isn't tracks and value isn't an empty string, assign the value to that album's prop
+    updatedRecords[id][prop] = value;
+  } else {
+    // If prop is tracks and value isn't an empty string
+    if (!updatedRecords[id].hasOwnProperty("tracks")) {
+      // If the album does not have a tracks property, assign it an empty array
+      updatedRecords[id].tracks = [];
+    }
+    // Add the value as the last item in the album's tracks array
+    updatedRecords[id].tracks.push(value);
+  }
+
+  // Return the entire updated records object
+  return updatedRecords;
+}
+
+updateRecords(recordCollection, 5439, 'artist', 'ABBA');
+
+
+// Add the numbers 5 through 0 (inclusive) in descending order to myArray using a while loop.
+// Setup
+const myArray = [];
+
+// Only change code below this line
+let i = 5;
+
+while (i >= 0) {
+  myArray.push(i);
+  i--;
+}
+
+
+
+// Modify function multiplyAll so that it returns the product of all the numbers in the sub-arrays of arr.
+function multiplyAll(arr) {
+  let product = 1;
+  // Only change code below this line
+  for (let i = 0; i < arr.length; i++) {
+    // Iterate through the sub-array
+    for (let j = 0; j < arr[i].length; j++) {
+      // Multiply each element with the product
+      product *= arr[i][j];
+    }
+  }
+
+  // Only change code above this line
+  return product;
+}
+
+multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
